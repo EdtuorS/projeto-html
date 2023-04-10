@@ -1,0 +1,39 @@
+p {
+    text-align: left;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+img.port:not(.banner) {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #ff0000, #ff6600, #ffff00, #66ff00, #00ffff, #0000ff, #6600ff, #ff00ff);
+    filter: brightness(80%);
+}
+.logo-center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  img.banner#logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+#background-image {
+    background-image: url("https://thumbs.dreamstime.com/b/ferramentas-para-cortar-opini%C3%A3o-superior-do-barbeiro-da-barba-81350123.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    filter: brightness(40%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
